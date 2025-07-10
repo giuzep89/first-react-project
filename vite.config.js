@@ -6,3 +6,4 @@ import viteSvgr from "vite-plugin-svgr";
 export default defineConfig({
   plugins: [react(), viteSvgr()],
 })
+
