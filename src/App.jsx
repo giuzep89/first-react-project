@@ -17,7 +17,7 @@ function App() {
             </nav>
         <header>
         <h1>Fruit Perfection</h1>
-            <button type={"button"}>Shop nu</button>
+            <button type={"button"} onClick={logClick}>Shop nu</button>
         </header>
         <main>
             <article className={"product"}>
@@ -40,6 +40,10 @@ function App() {
         </main>
         </>
     )
+}
+
+function logClick(){
+    console.log('You clicked!');
 }
 
 export default App
